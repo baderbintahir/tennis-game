@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Tennis Game</title>
+</head>
+<body>
+    <h1>Tennis Game</h1>
+
+    <div class="user-info">
+        <input type="text" name="p1" id="p1" placeholder="Enter Full Name of Player-1">
+        <input type="text" name="p2" id="p2" placeholder="Enter Full Name of Player-2">
+        <input type="button" value="Start New Game" id="start">
+    </div>
+
+    <hr>
+
+    <div class="game-status">
+
+        <div class="player-status">
+            <p class="labels">Player 1:</p>
+            <p class="labels">Wins:</p>
+            <p class="labels">Loses:</p>
+            <p class="labels">Games Won:</p>
+        </div>
+
+        <div class="player-status status-box">
+            <p class="p1-name"></p>
+            <p class="p1-set-wins"></p>
+            <p class="p1-set-loses"></p>
+            <p class="p1-games-won"></p>
+        </div>
+
+        <div class="player-status">
+            <p class="labels">Player 2:</p>
+            <p class="labels">Wins:</p>
+            <p class="labels">Loses:</p>
+            <p class="labels">Games Won:</p>
+        </div>
+
+        <div class="player-status status-box">
+            <p class="p2-name"></p>
+            <p class="p2-set-wins"></p>
+            <p class="p2-set-loses"></p>
+            <p class="p2-games-won"></p>
+        </div>
+
+    </div>
+
+    <div class="set-info">
+
+        <!-- <p class="p1-sets">John have won</p>
+        <p class="p2-sets"></p>
+
+        <p class="p1-games"></p>
+        <p class="p2-games"></p> -->
+
+    </div>
+    
+    <input type="button" value="New Set" id="new-set">
+
+    <script src="./app.js"></script>
+</body>
+</html>
